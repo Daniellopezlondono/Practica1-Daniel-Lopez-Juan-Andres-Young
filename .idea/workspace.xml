@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e86b2e67-b3c0-4dda-a3f0-bd257971ceec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Jobs/FrontJackA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jobs/FrontJackB.java" afterDir="false" />
+    <list default="true" id="e86b2e67-b3c0-4dda-a3f0-bd257971ceec" name="Changes" comment="Subclase para dividir Frontjack y puedan quedar los 5,Colores para la terminal y simplificacion de nombres">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/F1Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F1Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Jobs/FrontJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jobs/FrontJack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Jobs/FrontWing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jobs/FrontWing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jobs/FrontJackA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jobs/FrontJackA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Jobs/TyreOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jobs/TyreOff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jobs/TyreOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jobs/TyreOn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tasks/TeamDriverA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TeamDriverA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/TeamDriverB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TeamDriverB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +27,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jayounghoyos"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c171fcf0-8259-4a14-b4ea-ce0aed6a5a5f" />
+        <option name="url" value="https://github.com/Daniellopezlondono/PracticaDefinitivaCasiLista.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -74,11 +84,35 @@
       <updated>1711057038612</updated>
       <workItem from="1711057039636" duration="7533000" />
       <workItem from="1711123637674" duration="841000" />
-      <workItem from="1711130766091" duration="6136000" />
+      <workItem from="1711130766091" duration="7396000" />
     </task>
+    <task id="LOCAL-00001" summary="Subclase para dividir Frontjack y puedan quedar los 5,Colores para la terminal y simplificacion de nombres">
+      <option name="closed" value="true" />
+      <created>1711138978356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711138978356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Subclase para dividir Frontjack y puedan quedar los 5,Colores para la terminal y simplificacion de nombres" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subclase para dividir Frontjack y puedan quedar los 5,Colores para la terminal y simplificacion de nombres" />
   </component>
 </project>

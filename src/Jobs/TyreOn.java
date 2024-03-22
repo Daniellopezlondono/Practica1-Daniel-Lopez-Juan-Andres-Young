@@ -18,6 +18,6 @@ public class TyreOn extends PitCrewTeam implements TeamDriverA {
 
     @Override
     public void trabajoEspecial(){
-        System.out.println("limpio la llanta del A");
+        System.out.println("\033[0;31m limpio la llanta del A\033[0m");
     }
 }

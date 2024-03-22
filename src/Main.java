@@ -6,7 +6,7 @@ import jobs.SideJack;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-
+    public static void line(){System.out.println("\033[0;32m*****************************\033[0m");}
     public static void main(String[] args) {
 
         //Creamos el equipo según las reglas como dice en la página
@@ -14,7 +14,7 @@ public class Main {
         F1Team f1Team2 = new F1Team("Mercedes",1970,5);
         f1Team1.accederPrivado();
         f1Team2.accederPrivado();
-        System.out.println("\033[0;32m*****************************\033[0m");
+        line();
 
         //Equipo B
         ///Creación del frontJackB con sus atributos y distintos métodos
@@ -28,7 +28,7 @@ public class Main {
         FK1B.job(); // Metodo con Override
         FK1B.accederPrivado();// Metodo privado proveniente de PitCrewTeam
         FK1B.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
-        System.out.println("\033[0;32m*****************************\033[0m");
+        line();
 
         ///Creación del TyreOff con sus atributos y distintos métodos
         TyreOff TOff1= new TyreOff("Marcos",35,1,"TyreOff");
@@ -40,7 +40,7 @@ public class Main {
         TOff1.job(); // Metodo con Override
         TOff1.accederPrivado();// Metodo privado proveniente de PitCrewTeam
         TOff1.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
-        System.out.println("\033[0;32m*****************************\033[0m");
+        line();
 
         //Equipo A
         ///Creación del FrontWing con sus atributos y distintos métodos
@@ -53,7 +53,7 @@ public class Main {
         FK2A.job(); // Metodo con Override
         FK2A.accederPrivado();// Metodo privado proveniente de PitCrewTeam
         FK2A.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
-        System.out.println("\033[0;32m*****************************\033[0m");
+        line();
 
         TyreOn TOn= new TyreOn("Paco",25,5,"TyreOn");
         System.out.println(TOn.getName());
@@ -64,7 +64,7 @@ public class Main {
         TOn.job(); // Metodo con Override
         TOn.accederPrivado();// Metodo privado proveniente de PitCrewTeam
         TOn.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
-        System.out.println("\033[0;32m*****************************\033[0m");
+        line();
 
         // Hasta acá se demuestra el polimorfirmo, Herencia multiple, encapsulamiento y Abstracción, ahora vamos a instanciar el resto y tener el mejor equipo!!!
         /*

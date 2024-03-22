@@ -20,15 +20,15 @@ public class PitCrewTeam { // Es la clase padre de la cual se va a heredar sus a
     // Metodo #2
     private void qualityOfWorker(){///Metodo para obtener que tan apto es segun sus años de experiencia
         if(yearsOfExperience>=5){
-            System.out.println("Trabajador "+ name +" veterano, cuenta con " + yearsOfExperience+" años de experiencia");
+            System.out.println("\033[0;34mTrabajador "+ name +" veterano, cuenta con " + yearsOfExperience+" años de experiencia \033[0m");
         }
         else if(yearsOfExperience>=2){
 
-            System.out.println("Trabajador "+ name +" bueno, cuenta con " + yearsOfExperience+" años de experiencia");
+            System.out.println("\033[0;33m Trabajador "+ name +" bueno, cuenta con " + yearsOfExperience+" años de experiencia \033[0m");
 
         }
         else{
-            System.out.println("Trabajador "+ name + " novato, cuenta con " + yearsOfExperience+" experiencia");
+            System.out.println("\033[0;31m Trabajador "+ name + " novato, cuenta con " + yearsOfExperience+" experiencia \033[0m");
         }
     }
 
