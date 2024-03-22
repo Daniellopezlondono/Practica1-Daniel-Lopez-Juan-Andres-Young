@@ -1,7 +1,8 @@
 package Tasks;
 
-// Utilizaremmos interfaces para la herencia multiple, los trabajadores que hereden de esta interfaz van a tener herencia multiple y van a heredar propiedades de ambos PitCrewTeam y TeamDriverB
-//FrontJack,Tyereoff
+// Utilizaremmos interfaces para la herencia multiple, los trabajadores con herencia múltiple van a heredar propiedades de ambos PitCrewTeam y TeamDriverB
+
+//FrontJack(1),TyereOff(4)
 public interface TeamDriverB {
     // Atributos
 

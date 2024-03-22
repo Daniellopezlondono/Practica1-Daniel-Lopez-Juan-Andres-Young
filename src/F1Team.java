@@ -13,15 +13,15 @@ public class F1Team {
     }
     private  void championshipStatus(){ // Metodo privado
         if(championships>=5){
-            System.out.println("Equipo "+ name +" muy exitoso, cuenta con " + championships+" campeonatos ganados");
+            System.out.println("Equipo \033[0;34m"+ name +" muy exitoso \033[0m, cuenta con " + championships+" campeonatos ganados");
         }
         else if(championships>=1){
 
-            System.out.println("Equipo "+ name +" bueno, cuenta con " + championships+" campeonatos ganados");
+            System.out.println("Equipo \033[0;33m"+ name +" bueno \033[0m, cuenta con " + championships+" campeonatos ganados");
 
         }
         else{
-            System.out.println("Equipo "+ name + " malo, cuenta con " + championships+" campeonatos ganados");
+            System.out.println("Equipo \033[0;31m"+ name + " malo \033[0m, cuenta con " + championships+" campeonatos ganados");
         }
     }
 

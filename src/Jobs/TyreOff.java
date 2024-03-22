@@ -18,6 +18,6 @@ public class TyreOff extends PitCrewTeam implements TeamDriverB{
 
     @Override
     public void trabajoEspecial(){
-        System.out.println("Doy agua en el equipo B");
+        System.out.println("\033[0;34mDoy agua en el equipo B \033[0m");
     }
 }

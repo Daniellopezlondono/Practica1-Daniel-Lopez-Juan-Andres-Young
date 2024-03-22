@@ -14,66 +14,63 @@ public class Main {
         F1Team f1Team2 = new F1Team("Mercedes",1970,5);
         f1Team1.accederPrivado();
         f1Team2.accederPrivado();
-
+        System.out.println("\033[0;32m*****************************\033[0m");
 
         //Equipo B
-        ///Creación del frontJack con sus atributos y distintos métodos
-        FrontJack frontJack1= new FrontJack("Julian",25,3,"FrontJack");
-        System.out.println(frontJack1.getName());
-        System.out.println(frontJack1.getAge());
-        System.out.println(frontJack1.getJobName());
-        System.out.println(frontJack1.getYearsOfExperience());
-        String color = frontJack1.color;
+        ///Creación del frontJackB con sus atributos y distintos métodos
+        FrontJackB FK1B= new FrontJackB("Julian",25,3,"FrontJack");
+        System.out.println(FK1B.getName());
+        System.out.println(FK1B.getAge());
+        System.out.println(FK1B.getJobName());
+        System.out.println(FK1B.getYearsOfExperience());
+        String color = FK1B.color;
         System.out.println(color);
-        frontJack1.job(); // Metodo con Override
-        frontJack1.accederPrivado();// Metodo privado proveniente de PitCrewTeam
-        frontJack1.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
-        System.out.println("******************************");
+        FK1B.job(); // Metodo con Override
+        FK1B.accederPrivado();// Metodo privado proveniente de PitCrewTeam
+        FK1B.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
+        System.out.println("\033[0;32m*****************************\033[0m");
 
         ///Creación del TyreOff con sus atributos y distintos métodos
-        TyreOff TyreOff1= new TyreOff("Marcos",35,1,"TyreOff");
-        System.out.println(TyreOff1.getName());
-        System.out.println(TyreOff1.getAge());
-        System.out.println(TyreOff1.getJobName());
-        System.out.println(TyreOff1.getYearsOfExperience());
+        TyreOff TOff1= new TyreOff("Marcos",35,1,"TyreOff");
+        System.out.println(TOff1.getName());
+        System.out.println(TOff1.getAge());
+        System.out.println(TOff1.getJobName());
+        System.out.println(TOff1.getYearsOfExperience());
         System.out.println(color);
-        TyreOff1.job(); // Metodo con Override
-        TyreOff1.accederPrivado();// Metodo privado proveniente de PitCrewTeam
-        TyreOff1.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
-        System.out.println("******************************");
+        TOff1.job(); // Metodo con Override
+        TOff1.accederPrivado();// Metodo privado proveniente de PitCrewTeam
+        TOff1.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
+        System.out.println("\033[0;32m*****************************\033[0m");
 
         //Equipo A
         ///Creación del FrontWing con sus atributos y distintos métodos
-        FrontWing FrontWing1= new FrontWing("Paco",25,5,"FrontWing");
-        System.out.println(FrontWing1.getName());
-        System.out.println(FrontWing1.getAge());
-        System.out.println(FrontWing1.getJobName());
-        System.out.println(FrontWing1.getYearsOfExperience());
+        FrontJackA FK2A= new FrontJackA("Paco",25,5,"FrontJack");
+        System.out.println(FK2A.getName());
+        System.out.println(FK2A.getAge());
+        System.out.println(FK2A.getJobName());
+        System.out.println(FK2A.getYearsOfExperience());
         System.out.println(color);
-        FrontWing1.job(); // Metodo con Override
-        FrontWing1.accederPrivado();// Metodo privado proveniente de PitCrewTeam
-        FrontWing1.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
-        System.out.println("******************************");
+        FK2A.job(); // Metodo con Override
+        FK2A.accederPrivado();// Metodo privado proveniente de PitCrewTeam
+        FK2A.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
+        System.out.println("\033[0;32m*****************************\033[0m");
 
-        TyreOn tyreOn1= new TyreOn("Paco",25,5,"FrontWing");
-        System.out.println(tyreOn1.getName());
-        System.out.println(tyreOn1.getAge());
-        System.out.println(tyreOn1.getJobName());
-        System.out.println(tyreOn1.getYearsOfExperience());
+        TyreOn TOn= new TyreOn("Paco",25,5,"TyreOn");
+        System.out.println(TOn.getName());
+        System.out.println(TOn.getAge());
+        System.out.println(TOn.getJobName());
+        System.out.println(TOn.getYearsOfExperience());
         System.out.println(color);
-        tyreOn1.job(); // Metodo con Override
-        tyreOn1.accederPrivado();// Metodo privado proveniente de PitCrewTeam
-        tyreOn1.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
-        System.out.println("******************************");
+        TOn.job(); // Metodo con Override
+        TOn.accederPrivado();// Metodo privado proveniente de PitCrewTeam
+        TOn.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
+        System.out.println("\033[0;32m*****************************\033[0m");
 
         // Hasta acá se demuestra el polimorfirmo, Herencia multiple, encapsulamiento y Abstracción, ahora vamos a instanciar el resto y tener el mejor equipo!!!
         /*
-
-        Hasta acá van
-
-
-        FrontJack = FK      1/2
-        FrontWing = FW      1/2
+        Hasta acá van:
+        FrontJack = FK      2/2
+        FrontWing = FW      0/2
         LolipopMan = LP     0/1
         RearJack = RJ       0/2
         SideJack = SJ       0/2
@@ -83,9 +80,7 @@ public class Main {
          */
 
         // Demas trabajadores
-
-        FrontJack FK2 = new FrontJack("Justin", 23, 5.5, "FrontJack"); // FK 2/2
-
+        FrontWing FW1= new FrontWing("Paco",25,5,"FrontWing"); //FW 1/2
         FrontWing FW2 = new FrontWing("Esteban",35,14.6,"FrontWing"); // FW 2/2
 
         LolipopMan LP1 = new LolipopMan("Mateo",20,6.7,"Lolipopman"); // LP 1/1
@@ -96,20 +91,17 @@ public class Main {
         SideJack SJ1 = new SideJack("Ash",40,12.2,"SideJack"); // SJ 1/2
         SideJack SJ2 = new SideJack("Matt", 24,4.8,"SideJack"); // SJ 2/2
 
+        TyreGunner TG1 = new TyreGunner("Juan", 21,3.4,"TyreGunner"); // TG 1/4
+        TyreGunner TG2 = new TyreGunner("Alejo", 25,3.6,"TyreGunner"); // TG 2/4
+        TyreGunner TG3 = new TyreGunner("Salomon", 19,2.0,"TyreGunner"); // TG 3/4
+        TyreGunner TG4 = new TyreGunner("Pacho", 18,1.6,"TyreGunner"); // TG 4/4
 
-        TyreGunner TG1 = new TyreGunner("Juan", 21,3.4,"TyreGunner"); // TG 2/2
-        TyreGunner TG2 = new TyreGunner("Alejo", 25,3.6,"TyreGunner"); // TG 2/2
-        TyreGunner TG3 = new TyreGunner("Salomon", 19,2.0,"TyreGunner"); // TG 2/2
-        TyreGunner TG4 = new TyreGunner("Pacho", 18,1.6,"TyreGunner"); // TG 2/2
+        TyreOff TOff2 = new TyreOff("Gina", 37,9.3,"TyreOff"); // TOff 2/4
+        TyreOff TOff3 = new TyreOff("Alfredo", 26,5.4,"TyreOff"); // TOff 3/4
+        TyreOff TOff4 = new TyreOff("Maxwell", 33,1.1,"TyreOff"); // TOff 4/4
 
-        //TO del 1 al 4
-        TyreOff TOff1 = new TyreOff("David", 48,20.5,"TyreOff"); // SJ 2/2
-        TyreOff TOff2 = new TyreOff("Gina", 37,9.3,"TyreOff"); // SJ 2/2
-        TyreOff TOff3 = new TyreOff("Alfredo", 26,5.4,"TyreOff"); // SJ 2/2
-        TyreOff TOff4 = new TyreOff("Maxwell", 33,1.1,"TyreOff"); // SJ 2/2
-
-        TyreOn TO2 = new TyreOn("Hector", 21,1,"TyreOn"); // SJ 2/2
-        TyreOn TO3 = new TyreOn("Salamanca", 19,2,"TyreOn"); // SJ 2/2
-        TyreOn TO4 = new TyreOn("Vicktor", 18,3,"TyreOn"); // SJ 2/2
+        TyreOn TOn2= new TyreOn("Hector", 21,1,"TyreOn"); //Ton 2/4
+        TyreOn TOn3=new TyreOn("Salamanca", 19,2,"TyreOn"); //Ton 3/4
+        TyreOn TOn4=new TyreOn("Vicktor", 18,3,"TyreOn"); //Ton 4/4
     }
 }
