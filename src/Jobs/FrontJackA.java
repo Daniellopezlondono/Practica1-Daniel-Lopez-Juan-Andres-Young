@@ -1,18 +1,17 @@
-package Jobs;
+package Jobs;// El package es el paquete donde estan todos los trabajos
 
-import Tasks.PitCrewTeam;
 import Tasks.TeamDriverA;
 
 public class FrontJackA extends FrontJack implements TeamDriverA{
 
-    //override del método de TrabajadorX
-
+    // Constructor
     public FrontJackA(String name, int age, double yearsOfExperience, String jobName) {
         super(name, age, yearsOfExperience, jobName);
     }
 
-    @Override // Polimorfismo y encapsulamiento, polimorfismo del metod
-    public void job(){// Encapsulamiento de sus atributos, ademas de herencia
+    //@override del metodo de PitCrewTeam
+    @Override //Polimorfismo y encapsulamiento, polimorfismo del metodo
+    public void job(){
         System.out.println(("Soy "+ getName() + " y soy un "+getJobName()+" y mi trabajo consiste en levantar el carro por al frente para cambiar las ruedas"));
     }
 

@@ -11,7 +11,9 @@ public class F1Team {
         this.championships= championships;
         this.num_integrantes = 20;
     }
-    private  void championshipStatus(){ // Metodo privado
+
+    // Metodo privado(da un mensaje bueno o malo dependiendo de los campeonatos ganados)
+    private  void championshipStatus(){
         if(championships>=5){
             System.out.println("Equipo \033[0;34m"+ name +" muy exitoso \033[0m, cuenta con " + championships+" campeonatos ganados");
         }
@@ -31,8 +33,7 @@ public class F1Team {
     }// Lo llamamos a partir de un metodo publico
 
 
-    // Setters y Getters, son necesarios ya que blindamos nuestro codigo con private, lo que obliga a usar estos metodos para acceder a sus propiedades(atributos y metodos)
-
+    // Setters y Getters, son necesarios ya que blindamos nuestro codigo con private, lo que obliga a usar< estos metodos para acceder a sus propiedades(atributos y metodos)
     public String getName() {
         return name;
     }

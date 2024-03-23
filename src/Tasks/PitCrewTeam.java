@@ -4,7 +4,7 @@ public class PitCrewTeam { // Es la clase padre de la cual se va a heredar sus a
     private String name; // Nombre del trabajador
     private int age; // Edad del trabajador
     private double yearsOfExperience; // Años de experiencia que tiene
-    private String jobName;///Nombre del trabajo que tiene(tyregunner...etc)
+    private String jobName; //Nombre del trabajo que tiene(tyregunner...etc)
 
     public PitCrewTeam(String name, int age, double yearsOfExperience,String jobName) { // El constructor de el trabajador general
         this.name = name;
@@ -18,7 +18,7 @@ public class PitCrewTeam { // Es la clase padre de la cual se va a heredar sus a
         System.out.println("Por Definir");
     }
     // Metodo #2
-    private void qualityOfWorker(){///Metodo para obtener que tan apto es segun sus años de experiencia
+    private void qualityOfWorker(){///Metodo para obtener que tan apto es según sus años de experiencia
         if(yearsOfExperience>=5){
             System.out.println("\033[0;34mTrabajador "+ name +" veterano, cuenta con " + yearsOfExperience+" años de experiencia \033[0m");
         }
