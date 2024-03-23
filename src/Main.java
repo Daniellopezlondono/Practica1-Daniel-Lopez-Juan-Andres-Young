@@ -18,6 +18,7 @@ public class Main {
 
         //Equipo B
         ///Creación del frontJackB con sus atributos y distintos métodos
+        System.out.println("*****Trabajadores del equipo A*****");
         FrontJackB FK1B= new FrontJackB("Julian",25,3,"FrontJack");
         System.out.println(FK1B.getName());
         System.out.println(FK1B.getAge());
@@ -42,8 +43,10 @@ public class Main {
         TOff1.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
         line();
 
+
         //Equipo A
         ///Creación del FrontWing con sus atributos y distintos métodos
+        System.out.println("*****Trabajadores del equipo A*****");
         FrontJackA FK2A= new FrontJackA("Paco",25,5,"FrontJack");
         System.out.println(FK2A.getName());
         System.out.println(FK2A.getAge());
