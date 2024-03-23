@@ -3,7 +3,7 @@
 <h3>Integrantes</h3>
 <ol>
     <li>Juan Andrés Young Hoyos</li>
-    <li>Daniel Lopez</li>
+    <li>Daniel Lopez Londoño</li>
 </ol>
 
 <h3>Lenguaje de programación</h3>
