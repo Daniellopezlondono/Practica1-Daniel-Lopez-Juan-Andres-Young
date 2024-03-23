@@ -1,4 +1,4 @@
-<h1>Parcial de lenguajes 20%</h1>
+<h1>Práctica 1 de lenguajes</h1>
 
 <h3>Integrantes</h3>
 <ol>
