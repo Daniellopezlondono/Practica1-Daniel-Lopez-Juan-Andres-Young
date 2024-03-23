@@ -1,7 +1,7 @@
 import Jobs.*;
 import Tasks.TeamDriverA;
 import Tasks.TeamDriverB;
-import jobs.SideJack;
+import Jobs.SideJack;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
