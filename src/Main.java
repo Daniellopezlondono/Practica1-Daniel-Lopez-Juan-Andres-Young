@@ -3,6 +3,8 @@ import Tasks.TeamDriverA;
 import Tasks.TeamDriverB;
 import Jobs.SideJack;
 
+import java.sql.SQLOutput;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -20,12 +22,12 @@ public class Main {
         ///Creación del frontJackB con sus atributos y distintos métodos
         System.out.println("*****Trabajadores del equipo A*****");
         FrontJackB FK1B= new FrontJackB("Julian",25,3,"FrontJack");
-        System.out.println(FK1B.getName());
-        System.out.println(FK1B.getAge());
-        System.out.println(FK1B.getJobName());
-        System.out.println(FK1B.getYearsOfExperience());
+        System.out.println("Mi nombre es: "+FK1B.getName());
+        System.out.println("Mi edad es: "+ FK1B.getAge());
+        System.out.println("Soy un " + FK1B.getJobName());
+        System.out.println("Tengo " +FK1B.getYearsOfExperience() + " años de experiencia");
         String color = FK1B.color;
-        System.out.println(color);
+        System.out.println("Color del equipo " + color);
         FK1B.job(); // Metodo con Override
         FK1B.accederPrivado();// Metodo privado proveniente de PitCrewTeam
         FK1B.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver
@@ -59,11 +61,11 @@ public class Main {
         line();
 
         TyreOn TOn= new TyreOn("Paco",25,5,"TyreOn");
-        System.out.println(TOn.getName());
-        System.out.println(TOn.getAge());
-        System.out.println(TOn.getJobName());
-        System.out.println(TOn.getYearsOfExperience());
-        System.out.println(color);
+        System.out.println("Mi nombre es: "+TOn.getName());
+        System.out.println("Mi edad es: "+TOn.getAge());
+        System.out.println("Soy un " + TOn.getJobName());
+        System.out.println("Tengo " + TOn.getYearsOfExperience() + " años de experiencia");
+        System.out.println("Color del equipo "+color);
         TOn.job(); // Metodo con Override
         TOn.accederPrivado();// Metodo privado proveniente de PitCrewTeam
         TOn.trabajoEspecial();// Metodo proveniente de la interfaz TeamDriver

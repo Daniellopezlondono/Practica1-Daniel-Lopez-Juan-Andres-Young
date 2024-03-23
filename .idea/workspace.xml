@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e86b2e67-b3c0-4dda-a3f0-bd257971ceec" name="Changes" comment="cambio en el nombre completo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e86b2e67-b3c0-4dda-a3f0-bd257971ceec" name="Changes" comment="sout de equipo">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <list id="c85fc232-cff7-439a-bfaf-913f370d8b53" name="Changes by Garin" comment="">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +39,18 @@
         <option name="url" value="https://github.com/Daniellopezlondono/PracticaDefinitivaCasiLista.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Main.java">
+      <ranges>
+        <range start1="4" end1="4" start2="4" end2="6" changelist="e86b2e67-b3c0-4dda-a3f0-bd257971ceec" />
+        <range start1="22" end1="26" start2="24" end2="28" changelist="e86b2e67-b3c0-4dda-a3f0-bd257971ceec" />
+        <range start1="27" end1="28" start2="29" end2="30" changelist="e86b2e67-b3c0-4dda-a3f0-bd257971ceec" />
+        <range start1="35" end1="38" start2="37" end2="40" changelist="c85fc232-cff7-439a-bfaf-913f370d8b53" />
+        <range start1="50" end1="55" start2="52" end2="60" changelist="c85fc232-cff7-439a-bfaf-913f370d8b53" />
+        <range start1="61" end1="66" start2="66" end2="71" changelist="e86b2e67-b3c0-4dda-a3f0-bd257971ceec" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,7 +106,7 @@
       <workItem from="1711057039636" duration="7533000" />
       <workItem from="1711123637674" duration="841000" />
       <workItem from="1711130766091" duration="9276000" />
-      <workItem from="1711197231768" duration="7717000" />
+      <workItem from="1711197231768" duration="8245000" />
     </task>
     <task id="LOCAL-00001" summary="Subclase para dividir Frontjack y puedan quedar los 5,Colores para la terminal y simplificacion de nombres">
       <option name="closed" value="true" />
@@ -166,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711209657246</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="sout de equipo">
+      <option name="closed" value="true" />
+      <created>1711210265835</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711210265835</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +215,7 @@
     <MESSAGE value="import jobs.SideJack; to import Jobs.SideJack;" />
     <MESSAGE value="practica" />
     <MESSAGE value="cambio en el nombre completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambio en el nombre completo" />
+    <MESSAGE value="sout de equipo" />
+    <option name="LAST_COMMIT_MESSAGE" value="sout de equipo" />
   </component>
 </project>
